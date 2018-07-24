@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Malypo</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">Accept mobile payments everywhere from anywhere</string>
+    <string name="account_question">Already have an account?</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password</string>
+    <string name="help_and_about">Help and About</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+
+    <string name="hint_sign">Get Signature</string>
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <string name="get_signature_text">Get Signature</string>
+    <string name="invite_text">Invite a Friend</string>
+    <string name="verify_phone">Verify number</string>
+    <string name="activate_account">Activate account</string>
+    <string name="photo_id">Photo ID</string>
+    <string name="save_photo_id">Save Photo</string>
+    <string name="photo_id_retake">Retake Photo ID</string>
+    <string name="take_pictures">Take pictures</string>
+    <string name="photo_id_result">Results of Photo ID taken</string>
+    <string name="malypo_website">www.malypo.com</string>
+    <string name="email_malypo">contact@malypo.com</string>
+    <string name="phone_malypo">+237 663 60 60 60</string>
+    <string name="mtn_mobile_money">MTN mobile money</string>
+    <string name="orange_money">Orange money</string>
+    <string name="bank_card">Bank card</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_new">New</string>
+    <string name="logo_desc">App logo</string>
+    <string name="person_name">Kate Jennifer</string>
+    <string name="person_address">24 Lords Crescent, USA </string>
+
+
+    <string name="add_mtn_mobile_money">Add MTN mobile money account</string>
+    <string name="add_orange_money">Add Orange money account</string>
+    <string name="add_bank_card">Add Bank card account</string>
+
+    <string name="method_payment_info">
+    Please select one of the following to add a method of payment
+    </string>
+
+
+    <string name="help_info">
+        Contact us incase you have any issues by email or by phone at +237 663 60 60 60.
+        More can be found on our official website by clicking on the link below.
+    </string>
+
+    <string name="activate_info">
+        Please take a photo of your ID (passport of National Identification Card) and then take a photo
+        of you to finalize the activation of your account
+    </string>
+
+    <string name="photos_info">
+        Please take at least (3) pictures of your beautififuk self to confirm your identity.
+    </string>
+
+    <string name="invite_info">
+    Hi there! I’d like to introduce you to Malypo
+    - a simple and cost-effective solution for your daily transactions via local mobile payments.
+    Join me and start building your profile.
+    Oh, and did I mention we’ll both get a XAF5000 reward!
+    </string>
+
+    <string name="more_info">
+       Thanks for stopping by our app. We have other apps that are eye catching you could download from the android market.
+        Or better still visit our website by clicking on the link below
+    </string>
+
+    <string name="about_info">
+        Malypo is a mobile application that wants to democratize mobile payments by bringing traditional
+        payment methods of debit and credit cards with ease of mobile money. More can be found on our official website by
+        clicking on the link below.
+    </string>
+
+
+
+
+
+    //array to get all countries
+    <string-array name="country_list">
+        <item>Cameroon</item>
+        <item>Nigeria</item>
+        <item>Gabon</item>
+        <item>South Africa</item>
+        <item>Ghana</item>
+    </string-array>
+
+
+    <string name="title_transaction">Transactions</string>
+    <string name="title_accounts">Account</string>
+    <string name="title_payments">Payments</string>
+    <string name="title_settings">Settings</string>
+
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="@string/activate_info"
+                android:textAppearance="@android:style/TextAppearance" />
+
+        <Button
+            android:id="@+id/photo_id_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/photo_id"
+            android:layout_margin="20dp"
+            android:layout_gravity="bottom"
+            android:background="#d84"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/self_pictures_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_pictures"
+            android:layout_margin="20dp"
+            android:layout_gravity="bottom"
+            android:background="#d84"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show_result_scan"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/photo_id_result"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/my_id_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="315dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/photo_id" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/save_my_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/save_photo_id"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:background="#d84"
+                        android:textColor="#ffffff"
+                        android:padding="10dp"
+                        android:layout_margin="15dp"
+                        tools:ignore="ButtonStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

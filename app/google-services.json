@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "817070863286",
+    "firebase_url": "https://malypo-18a25.firebaseio.com",
+    "project_id": "malypo-18a25",
+    "storage_bucket": "malypo-18a25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817070863286:android:f28a79fd4256a881",
+        "android_client_info": {
+          "package_name": "com.level500.ub.malypo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817070863286-344bmmsm31pe7a48h2utv249spj9g43s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.level500.ub.malypo",
+            "certificate_hash": "8269de7e6995c4b8461db9fefd80bdc7670288eb"
+          }
+        },
+        {
+          "client_id": "817070863286-vqoul8kcaukdukb7throlmhjt00b4rqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.level500.ub.malypo",
+            "certificate_hash": "6f26d774510fa5dec65d77ed2db8662184a9ef5c"
+          }
+        },
+        {
+          "client_id": "817070863286-n892nj23q0g220u1q3hjppt9v9t2etu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARbKmZC0rOwcvIVOOqQBng3yFHOqb4jmE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817070863286-n892nj23q0g220u1q3hjppt9v9t2etu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
